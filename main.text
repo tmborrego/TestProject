@@ -1,0 +1,47 @@
+
+    let tester = 'hello world';
+    console.log(tester);
+
+    const an_array = [1,2,3,4,5];
+    // let's grab an element of the array
+    console.log(an_array[0], an_array[4]);
+    
+    // well that worked, let's try iterating over it
+    for(i=0; i<an_array.length; i++){
+    console.log(an_array[i]);
+    }
+    
+    /*
+    now we're cooking with gas!
+    
+    look a multiline comment!
+    */
+   function tanya_is_cool() {
+    console.log('My Tanya and I are super cool!')
+    }
+    
+    tanya_is_cool()
+
+    function tanya_is_cool1() {
+        return 'I am Tanya, hear me roar!';
+        }
+        
+    console.log(tanya_is_cool1())
+
+    // another fucntion to do some math
+    function do_some_math(a, b, c) {
+    let temp_val = a * b * c
+    let a_val = Math.sqrt(c)
+    return temp_val / a_val
+    }
+    
+    console.log(tanya_is_cool())
+    console.log(do_some_math(1,2,3))
+
+    let test_arr = [1,2,3, 'oh my']
+        console.log(test_arr)
+            
+            
+
+
+

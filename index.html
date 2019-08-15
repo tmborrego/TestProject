@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CC</title>
+</head>
+<body>
+
+<form>
+<label class="form newtask" for="newTask">Task:</label>
+<input class="form newtasktext" id="newTask" name = "newTask" type="text" maxlength="50">
+<br><br>
+<label class="form newdate" for="date">Date:</label>
+<input class="form date" id="date" name = "date" type="date" maxlength="10" > 
+</div>
+<br><br>
+
+<!-- use ids with your buttons so we can access them in js easier -->
+<button class ="button button1" id="subButton" onclick="addRow();">Save Task</button>
+<button class ="button button2" id="resButton" type="reset">Clear</button>
+<div id = "msg">
+    <pre></pre>
+</div>
+</form>
+<table border ="1">
+    <tr>
+        <th>ID</th>
+        <th>Task</th>
+        <th>Date</th>
+    </tr>
+    <tr>
+        <td>123487876465464</td>
+         <td>First task</td>
+         <td>08/20/2019</td>   
+
+    </tr>
+</table>
+
+<script src="main.js"></script>
+</body>
+</html>
